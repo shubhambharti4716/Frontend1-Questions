@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Accessible Portfolio</title>
+  </head>
+
+  <body>
+    <main>
+      <nav id="nav" role="navigation">
+        <div class="nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#project">Project</a>
+          <a href="#contact">Contact</a>
+          <a href="#resume">Resume</a>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <h1 role="heading" aria-level="1">
+          Hello, I am <span style="color: darkblue">Shubham Bharti</span><br />
+          <span style="color: seagreen"
+            >A Full Stack Web Developer with MERN specialization</span
+          >
+        </h1>
+        <p>
+          Passionate MERN Full Stack Web Developer with a knack for crafting
+          seamless, user-centric web experiences. Proficient in MongoDB,
+          Express.js, React, and Node.js, I transform ideas into elegant,
+          responsive websites. "I bring ideas to life with code."
+        </p>
+        <br />
+        <button class="follow-button">Follow Me</button>
+      </div>
+
+      <div class="showcase" id="home" role="region" aria-label="Home Section">
+        <img
+          role="img"
+          aria-label="Profile Picture"
+          src="https://source.unsplash.com/900*500/?home"
+          alt="Picture"
+        />
+        <h2>Home</h2>
+        <h3>Web Developer</h3>
+        <p>
+          Passionate MERN Full Stack Web Developer with a knack for building
+          seamless, user-centric web applications. Proficient in MongoDB,
+          Express.js, React, and Node.js, I transform ideas into elegant,
+          responsive websites. "I bring ideas to life with code."
+        </p>
+      </div>
+
+      <div class="showcase" id="about" role="region" aria-label="About Section">
+        <img
+          role="img"
+          aria-label="Profile Picture"
+          src="https://source.unsplash.com/900*500/?home"
+          alt="Picture"
+        />
+        <h2>About</h2>
+        <h3>Web Developer</h3>
+        <p>
+          Engaged in both the technical and visual dimensions of web
+          development, I hold the authority to shape not just the aesthetics but
+          also the functionality of websites. This role extends to overseeing
+          the upkeep of existing sites. This journey presents a chance to leave
+          a compelling mark on prospective employers or clients.
+        </p>
+      </div>
+
+      <div
+        class="showcase"
+        id="project"
+        role="region"
+        aria-label="Project Section"
+      >
+        <img
+          role="img"
+          aria-label="Profile Picture"
+          src="https://source.unsplash.com/900*500/?home"
+          alt="Picture"
+        />
+        <h2>Project</h2>
+        <p>Skills:</p>
+      </div>
+
+      <div
+        class="showcase"
+        id="contact"
+        role="region"
+        aria-label="Contact Section"
+      >
+        <img
+          role="img"
+          aria-label="Profile Picture"
+          src="https://source.unsplash.com/900*500/?home"
+          alt="Picture"
+        />
+        <h2>Contact</h2>
+        <h3>Web Developer</h3>
+        <p>
+          Passionate MERN Full Stack Web Developer with a knack for building
+          seamless, user-centric web applications. Proficient in MongoDB,
+          Express.js, React, and Node.js, I transform ideas into elegant,
+          responsive websites. "I bring ideas to life with code."
+        </p>
+      </div>
+
+      <div
+        class="showcase"
+        id="resume"
+        role="region"
+        aria-label="Resume Section"
+      >
+        <img
+          role="img"
+          aria-label="Profile Picture"
+          src="https://source.unsplash.com/900*500/?home"
+          alt="Picture"
+        />
+        <h2>Resume</h2>
+        <h3>Web Developer</h3>
+        <p>
+          Passionate MERN Full Stack Web Developer with a knack for building
+          seamless, user-centric web applications. Proficient in MongoDB,
+          Express.js, React, and Node.js, I transform ideas into elegant,
+          responsive websites. "I bring ideas to life with code."
+        </p>
+      </div>
+
+      <footer role="region" aria-label="Footer Section">
+        <ul role="list">
+          <li role="listitem">
+            <a href="https://www.twitter.com/">Twitter</a>
+          </li>
+          <li role="listitem">
+            <a href="https://www.facebook.com/">Facebook</a>
+          </li>
+          <li role="listitem">
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+          </li>
+          <li role="listitem">
+            <a href="https://www.instagram.com/">Instagram</a>
+          </li>
+        </ul>
+        <p>&copy; 2023 Shubham Bharti. All rights Reserved</p>
+      </footer>
+    </main>
+  </body>
+</html>
